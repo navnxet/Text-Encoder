@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="inputArea">
+            <textarea id="inputText" cols="38" rows="10" placeholder="Enter text here..."></textarea>
+            <button id="convertButton"">Encode Text</button>
+        </div>
+        <div class="smallButtons">
+            <button id="deleteButton" class="btn1"><i class="far fa-trash-alt"></i></button>
+            <button id="copyButton" class="btn2"><i class="far fa-clone"></i></button>
+        </div>
+        <div class="outputArea">
+            <textarea id="outputMorse" cols="38" rows="10" placeholder="Generated text..." readonly disabled></textarea>
+            <button id="convertToMorseButton"">Decode Text</button>
+        </div>      
+    </main>
+    <script src="./script.js"></script>   
+</body>
+</html>
